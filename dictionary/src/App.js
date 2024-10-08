@@ -1,10 +1,14 @@
 import './App.css';
 import Dictionary from "./Dictionary"
 
+
+
 export default function App() {
   return (
     <div className="App">
-< Dictionary />
+      <div className='container'>
+        <Dictionary />
+      </div>
     </div>
   );
 }
