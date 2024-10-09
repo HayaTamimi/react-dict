@@ -1,5 +1,5 @@
 import './App.css';
-import Dictionary from "./Dictionary"
+import Dictionary from "./Dictionary1"
 
 
 
@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className='container'>
         <h1>React Dictionary ✨</h1>
-        <Dictionary />
+        <Dictionary1 />
       </div>
     </div>
   );
