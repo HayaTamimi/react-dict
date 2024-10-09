@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Dictionary1.css";
 
-export default function Dictionary() {
+export default function Dictionary1() {
   let [keyword, setKeyword] = useState("null");
   function handleResponse(response) {
     
